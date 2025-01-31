@@ -28,7 +28,7 @@ class VehicleInfo1 {
 		String trans = transmission;
 
 		System.out.println("Engine type is: " + engine);
-		System.out.println("Transmission: " + transmission);
+		System.out.println("Transmission: " + trans);
 
 	}
 

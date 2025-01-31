@@ -8,9 +8,7 @@ public class ScannerAssi {
 
 	public static void main(String[] args) {
 
-		Scanner s = new Scanner(System.in);
-
-	
+		try (Scanner s = new Scanner(System.in)) {
 			System.out.println("Enter Student id");
 			int id = s.nextInt();
 			System.out.println("Enter Student name:");
@@ -26,6 +24,7 @@ public class ScannerAssi {
 			System.out.println("Student name is:" + sname);
 			System.out.println("Student college is:" + cname);
 			System.out.println("Phone number is:" + ph);
+		}
 
 		
 	}

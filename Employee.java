@@ -31,9 +31,9 @@ public class Employee {
 
 	public static void main(String[] args) {
 		
-		Employee e = new Employee(101, "Josh", "Vitality");
-		Employee e1 = new Employee("Manager", 80000.00);
-		Employee e2 = new Employee();
+		new Employee(101, "Josh", "Vitality");
+		new Employee("Manager", 80000.00);
+		new Employee();
 
 	}
 
